@@ -1,0 +1,49 @@
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.products-grid .group {
+  width: 100%;
+  max-width: 400px; /* keeps cards uniform */
+  margin: auto;     /* centers single card */
+}
+
+.hero-video-full {
+  position: relative;
+  width: 100%;
+  height: 30rem; /* adjust as needed */
+  overflow: hidden;
+}
+
+.hero-bg-video-full {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-overlay-full {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4); /* semi-transparent overlay */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title-full {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-text-full {
+  font-size: 1.25rem;
+  max-width: 2xl;
+}
+
