@@ -50,7 +50,7 @@ function App() {
     const whatsappMsg = `Hello! I want to place an order:%0A${orderLines.join(
       "%0A"
     )}%0A%0ATotal: ₹${total}`;
-    window.open(`https://wa.me/919693594620?text=${whatsappMsg}`, "_blank");
+    window.open(`https://wa.me/919911956680?text=${whatsappMsg}`, "_blank");
   };
 
   return (

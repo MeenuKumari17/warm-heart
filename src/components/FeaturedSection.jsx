@@ -71,12 +71,12 @@ const FeaturedSection = ({ addToCart }) => {
 
       {/* View More Button */}
       <div className="flex justify-center mt-10">
-<button
-  onClick={handleViewMore}
-  className="view-more-btn"
->
-  <span>View More</span>
-</button>
+        <button
+          onClick={handleViewMore}
+          className="view-more-btn"
+        >
+          <span>View More</span>
+        </button>
       </div>
     </section>
   );
